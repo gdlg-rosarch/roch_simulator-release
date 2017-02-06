@@ -10,6 +10,6 @@ catkin_add_env_hooks(25.roch-gazebo
 roslaunch_add_file_check(launch)
 
 install(
-  DIRECTORY launch worlds 
+  DIRECTORY launch worlds maps
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
