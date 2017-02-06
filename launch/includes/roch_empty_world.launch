@@ -14,7 +14,7 @@
   <arg name="3d_sensor_nav_enable"		  default="$(env ROCH_3D_SENSOR_NAV_ENABLE)" doc="if this value set true, 2d_laser_enable must set false, otherwise will error."/> 
   <arg name="world_name"        default="$(env ROCH_GAZEBO_WORLD_FILE)" doc="specify the world file of GAZEBO. "/>
 
-  <include file="$(find gazebo_ros)/launch/includes/empty_world.launch">
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(arg world_name)"/> <!-- world_name is wrt GAZEBO_RESOURCE_PATH environment variable -->
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
