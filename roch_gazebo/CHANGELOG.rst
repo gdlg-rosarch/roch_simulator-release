@@ -1,6 +1,14 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package roch_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1.0.10 (2017-02-06)
+------------------
+* Add two launch files of gmapping and amcl.
+* Fixed bug that can not find empty_world.launch in gazebo_ros.
+* Add map files in directory of maps.
+* Changes gazebo worlds that origin is too big.
+
+
 1.0.9 (2017-02-06)
 ------------------
 * Remove 50.roch_gazebo.sh file in directory of env-hooks.

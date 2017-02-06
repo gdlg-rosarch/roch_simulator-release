@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>roch_gazebo</name>
-  <version>1.0.9</version>
+  <version>1.0.10</version>
   <description>SawYer roch Simulator bringup</description>
 
   <author email="rgariepy@clearpathrobotics.com">Ryan Gariepy</author>
@@ -28,6 +28,7 @@
   <run_depend>hector_gazebo_plugins</run_depend>
   <run_depend>roch_control</run_depend>
   <run_depend>roch_description</run_depend>
+  <run_depend>roch_navigation</run_depend>
   <run_depend>roch_bringup</run_depend>
   <run_depend>pointcloud_to_laserscan</run_depend>
   <run_depend>robot_state_publisher</run_depend>
