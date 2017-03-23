@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>roch_gazebo</name>
-  <version>1.0.10</version>
+  <version>1.0.11</version>
   <description>SawYer roch Simulator bringup</description>
 
   <author email="rgariepy@clearpathrobotics.com">Ryan Gariepy</author>
