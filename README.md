@@ -1,3 +1,28 @@
+## roch_simulator (kinetic) - 2.0.12-5
+
+The packages in the `roch_simulator` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic roch_simulator` on `Mon, 18 Sep 2017 05:37:44 -0000`
+
+These packages were released:
+- `roch_gazebo`
+- `roch_simulator`
+
+Version of package(s) in repository `roch_simulator`:
+
+- upstream repository: https://github.com/SawYer-Robotics/roch_simulator.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `2.0.12-4`
+- new version: `2.0.12-5`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.4`
+- vcstools version: `0.1.38`
+
+
 ## roch_simulator (kinetic) - 2.0.12-4
 
 The packages in the `roch_simulator` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --ros-distro kinetic roch_simulator` on `Mon, 18 Sep 2017 05:23:46 -0000`
