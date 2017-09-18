@@ -1,3 +1,4 @@
+release_repo_url: https://github.com/SawYerRobotics-release/roch_simulator-release.git
 tracks:
   indigo:
     actions:
