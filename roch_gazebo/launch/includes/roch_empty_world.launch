@@ -23,7 +23,7 @@
     <arg name="debug" value="false"/>
   </include>
 
-  <include file="$(find roch_gazebo)/includes/launch/spawn_roch.launch">
+  <include file="$(find roch_gazebo)/launch/includes/spawn_roch.launch">
     <arg name="base"	   value="$(arg base)"/>
     <arg name="stacks"	   value="$(arg stacks)"/>
     <arg name="3d_sensor"  value="$(arg 3d_sensor)"/>
